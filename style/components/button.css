@@ -7,6 +7,7 @@
   border-radius: 4px;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
 }
 
 .btn-secondary {
@@ -18,4 +19,19 @@
   border-radius: 4px;
   text-transform: uppercase;
   border: 2px solid var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-icon {
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 10px;
+  background: var(--base-color);
+  cursor: pointer;
+}
+
+.btn-icon img {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
 }
