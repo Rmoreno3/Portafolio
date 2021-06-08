@@ -1,0 +1,11 @@
+{
+  "name": "portafolio_jaume",
+  "version": "1.0.0",
+  "description": "Taller portafolio de jaume",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reynaldo Moreno rmoreno3131@gmail.com",
+  "license": "MIT"
+}

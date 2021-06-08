@@ -1,0 +1,55 @@
+/* FUENTE GLOBAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+/* REINICIANDO ESTILOS GENERALES  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES DESING SYSTEM */
+
+:root {
+  --font-base: 'Poppins', sans-serif;
+  --headline1: bold 95px/153.71px var(--font-base);
+  --headline2: bold 59px/95.46px var(--font-base);
+  --headline3: bold 48px/77.66px var(--font-base);
+  --headline4: bold 34px/55.01px var(--font-base);
+  --headline5: bold 24px/38.83px var(--font-base);
+  --body1: 16px/25.89px var(--font-base);
+  --body2: 14px/22.65px var(--font-base);
+  --button: bold 14px/22.65px var(--font-base);
+  --caption: 12px/19.42px var(--font-base);
+  --primary-color: #310A90;
+  --secondary-color: #42E2B8;
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+/* ESTILOS GLOBALES */
+
+ body {
+   background: var(--gradient);
+   min-block-size: 100vh;
+   font: var(--headline4);
+ }
+
+
+ /* HEADER */
+
+ .header-content {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .header-logo_container {
+   width: 70px;
+   height: 20px;
+ }
+
+ .header-logo_container img {
+   width: 100%;
+   height: 20px;
+ }
