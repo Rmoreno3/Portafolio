@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
 
+/* IMPORTACIONES DE COMPONENTES */
+
+/* BOTONES */
+@import "./components/button.css";
+/* HEADER */
+@import "./components/header.css";
+
 /* REINICIANDO ESTILOS GENERALES  */
 
 * {
@@ -25,6 +32,7 @@
   --caption: 12px/19.42px var(--font-base);
   --primary-color: #310A90;
   --secondary-color: #42E2B8;
+  --base-color: #FFFFFF;
   --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
 }
 
@@ -34,22 +42,4 @@
    background: var(--gradient);
    min-block-size: 100vh;
    font: var(--headline4);
- }
-
-
- /* HEADER */
-
- .header-content {
-   display: flex;
-   justify-content: space-between;
- }
-
- .header-logo_container {
-   width: 70px;
-   height: 20px;
- }
-
- .header-logo_container img {
-   width: 100%;
-   height: 20px;
  }

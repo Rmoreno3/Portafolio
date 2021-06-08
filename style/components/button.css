@@ -1,0 +1,21 @@
+.btn-primary {
+  background: var(--primary-color);
+  height: 49px;
+  color: var(--base-color);
+  font: var(--button);
+  padding: 13px 24px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-secondary {
+  background: unset;
+  height: 49px;
+  color: var(--primary-color);
+  font: var(--button);
+  padding: 13px 24px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 2px solid var(--primary-color);
+}
