@@ -8,6 +8,10 @@
 @import "./components/button.css";
 /* HEADER */
 @import "./components/header.css";
+/* MAIN */
+@import "./components/main.css";
+/* WRAPPER */
+@import "./components/wrapper.css";
 
 /* REINICIANDO ESTILOS GENERALES  */
 
