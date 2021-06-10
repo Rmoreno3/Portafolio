@@ -9,9 +9,19 @@
 /* HEADER */
 @import "./components/header.css";
 /* MAIN */
-@import "./components/main.css";
+@import "./components/hero.css";
 /* WRAPPER */
 @import "./components/wrapper.css";
+/* QUERYS */
+@import "./components/querys.css";
+/* TESTIMONIOS */
+@import "./components/testimonios.css";
+/* CARD */
+@import "./components/card.css";
+/* PROYECT */
+@import "./components/proyect.css";
+/* ANIMACIONES */
+@import "./components/animaciones.css";
 
 /* REINICIANDO ESTILOS GENERALES  */
 
@@ -40,7 +50,7 @@ a {
   --primary-color: #310A90;
   --secondary-color: #42E2B8;
   --base-color: #FFFFFF;
-  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+  --gradient:  radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
 }
 
 /* ESTILOS GLOBALES */
