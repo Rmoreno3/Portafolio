@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font: var(--button);
+  color: var(--primary-color);
+}
+
+.form input, .form textarea {
+  border-radius: 8px;
+  border: 2px solid var(--gray);
+  padding: 12px 16px;
+  margin-top: 8px;
+  font: var(--body1);
+}
+
+.form-info p {
+  font: var(--body1);
+  color: var(--base-color);
+  text-align: center;
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  text-align: center;
+}

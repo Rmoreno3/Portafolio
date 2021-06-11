@@ -11,7 +11,9 @@
 .testimonio-container figure {
   width: 80px;
   height: 80px;
+  margin-top: 10px;
   margin-bottom: 40px;
+  animation: float 3s ease-in-out infinite;
 }
 
 .testimonio-container img {

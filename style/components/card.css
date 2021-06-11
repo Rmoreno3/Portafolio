@@ -8,6 +8,9 @@
   backdrop-filter: blur(39.7657px);
   padding: 24px;
   gap: 24px;
+  margin-bottom: 80px;
+  border-top: 4px solid rgba(255, 255, 255, 0.5);
+  border-left: 4px solid rgba(255, 255, 255, 0.5);
 }
 
 .card-container figure {
@@ -23,9 +26,11 @@
 .card-coment p {
   font: var(--body1);
   color: var(--primary-color);
+  font-weight: 700;
 }
 
 .card-copy p {
   font: var(--caption);
   color: var(--primary-color);
+  opacity: 40%;
 }

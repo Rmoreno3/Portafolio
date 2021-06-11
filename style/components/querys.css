@@ -46,6 +46,8 @@
   }
 }
 
+/* QUERYS DE TESTIMONIO */
+
 @media screen and (min-width: 1024px){
   .testimonio-container {
     padding: 200px;
@@ -56,6 +58,8 @@
   }
 
 }
+
+/* QUERYS DE CARD */
 
 @media screen and (min-width: 1024px) {
   .card-container .card-coment p {
@@ -78,6 +82,7 @@
   }
 }
 
+/* QUERYS DE PROYECT */
 
 @media screen and (min-width: 1024px) {
   .proyect {
@@ -101,5 +106,73 @@
   .marvol {
     display: flex;
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .netnet {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .proyect-img__container .netnet-img {
+    width: 500px;
+  }  
+}
+
+/* QUERYS DE FORMULARIO */
+
+@media screen and (min-width: 768px){
+  .form-info .title {
+    align-self: stretch;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form .form-info p{
+    text-align: left;
+  }
+
+}
+
+/* QUERYS DE FOOTER */
+
+@media screen and (max-width: 768px){
+  .footer-info p {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1024px){
+  footer {
+    padding-bottom: 20px;
+  }
+  
+  .footer-container .footer-info {
+    display: flex;
+    flex-direction: row;
+    gap: 5;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ocult a {
+    display: none;
+  }
+
+  .social {
+    width: 300px;
+  }
+  
+  .footer-container .footer-logo {
+    display: block;
+  }
+
+  .footer-container .ocultar {
+    display: block;
+    align-items: center;
   }
 }
